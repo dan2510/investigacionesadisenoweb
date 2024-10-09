@@ -7,6 +7,9 @@
     <title>Usabilidad Web</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -15,93 +18,173 @@
 
 <p><strong>Carrera:</strong> Ingeniería del Software</p>
 <p><strong>Curso:</strong> Diseño de Aplicaciones Web</p>
-<p><strong>Tema:</strong> Usabilidad Web</p>
+<p><strong>Tema 1:</strong>Usabilidad Web</p>
+<p><strong>Tema 2:</strong>Accesibilidad Web</p>
 <p><strong>Lic. Roosvelt Reyes Pérez</strong></p>
 
 <p><strong>Daniel Carballo (116900663)</strong></p>
 <p><strong>IlI Cuatrimestre - 2024</strong></p>
 
 
-<div class="container mt-4"></div>
-    <div class="card">
-        <div class="card-header text-center">
-            <h3>Tabla de contenido</h3>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card content-card">
+                <div class="card-header text-center">
+                    <h3>Tabla de contenido Usabilidad Web</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#usabilidad">¿Qué es usabilidad Web? &emsp; 3</a></li>
+                        <li class="list-group-item"><a href="#importancia">¿Cuál es la importancia de la Usabilidad Web? &emsp; 3</a></li>
+                        <li class="list-group-item"><a href="#beneficios">Beneficios &emsp; 3-4</a></li>
+                        <li class="list-group-item"><a href="#principios">¿Cuáles son los principios de Usabilidad Web? &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#disponibilidad">Disponibilidad &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#claridad">Claridad &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#reconocimiento">Reconocimiento &emsp; 5</a></li>
+                        <li class="list-group-item"><a href="#credibilidad">Credibilidad &emsp; 5</a></li>
+                        <li class="list-group-item"><a href="#relevancia">Relevancia &emsp; 5</a></li>
+                        <li class="list-group-item"><a href="#referencias">Referencias Bibliográficas &emsp; 5</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#usabilidad">¿Qué es usabilidad Web? &emsp; 3</a></li>
-                <li class="list-group-item"><a href="#importancia">¿Cuál es la importancia de la Usabilidad Web? &emsp; 3</a></li>
-                <li class="list-group-item"><a href="#beneficios">Beneficios &emsp; 3-4</a></li>
-                <li class="list-group-item"><a href="#principios">¿Cuáles son los principios de Usabilidad Web? &emsp; 4</a></li>
-                <li class="list-group-item"><a href="#disponibilidad">Disponibilidad &emsp; 4</a></li>
-                <li class="list-group-item"><a href="#claridad">Claridad &emsp; 4</a></li>
-                <li class="list-group-item"><a href="#reconocimiento">Reconocimiento &emsp; 5</a></li>
-                <li class="list-group-item"><a href="#credibilidad">Credibilidad &emsp; 5</a></li>
-                <li class="list-group-item"><a href="#relevancia">Relevancia &emsp; 5</a></li>
-                <li class="list-group-item"><a href="#referencias">Referencias Bibliográficas &emsp; 5</a></li>
-            </ul>
+
+        <div class="col-md-6">
+            <div class="card content-card">
+                <div class="card-header text-center">
+                    <h3>Tabla de contenido Accesibilidad Web</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item"><a href="#accesibilidad-web">¿Qué es Accesibilidad Web? &emsp; 3</a></li>
+                        <li class="list-group-item"><a href="#importanciaweb">¿Cuál es la importancia de la Accesibilidad Web? &emsp; 3</a></li>
+                        <li class="list-group-item"><a href="#principiosweb">¿Cuáles son los principios de Accesibilidad Web? &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#perceptibilidad">Perceptibilidad &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#operabilidad">Operabilidad &emsp; 4</a></li>
+                        <li class="list-group-item"><a href="#comprension">Comprensión &emsp; 5</a></li>
+                        <li class="list-group-item"><a href="#robustez">Robustez &emsp; 5</a></li>
+                        <li class="list-group-item"><a href="#referencias">Referencias Bibliográficas &emsp; 6</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
 
-
-<h2 id="usabilidad">¿Qué es usabilidad Web?</h2>
-<p>La usabilidad web se refiere a las características que facilitan la navegación en un sitio web para los usuarios. Se centra en aspectos como el diseño visual, la disposición y organización de la información, así como en la funcionalidad del sitio. Su principal objetivo es permitir que el usuario navegue con el menor esfuerzo y tiempo posible.</p>
-<p>Este proceso comienza en el momento en que el usuario accede al sitio, teniendo en cuenta factores como la velocidad de carga, la estructura del menú y sus secciones, el diseño y la organización de los elementos gráficos, la ausencia de errores en las páginas, y la optimización de textos, chats, formularios, barras de navegación, botones y otros componentes.</p>
-<p>Por lo tanto, para que la interfaz del sitio web (y cada una de sus páginas) sea amigable, ágil, intuitiva y sencilla, se requiere la colaboración de diversos profesionales, incluyendo diseñadores gráficos, diseñadores UX, desarrolladores web y publicistas.</p>
-
-<h2 id="importancia">¿Cuál es la importancia de la Usabilidad Web?</h2>
-<p>La falta de usabilidad en un sitio web es la principal razón por la que los usuarios lo abandonan.</p>
-<p>Si la información es difícil de localizar, los objetivos no son alcanzables, no hay facilidad para escanear el contenido, o el sitio es muy lento, es probable que los visitantes cierren la pestaña sin leer más allá del primer párrafo.</p>
-<p>Si tenemos problemas de usabilidad al perder un usuario, se puede perder un usuario potencial.</p>
-<p>Por otro lado, la usabilidad web ofrece numerosos beneficios tanto para los usuarios como para los dueños del sitio. Entre ellos se incluyen:</p>
-<ul>
-    <li>Aumento del tráfico;</li>
-    <li>Mayor tiempo de permanencia en la página;</li>
-    <li>Reducción de tiempos y costos para el usuario y la empresa;</li>
-    <li>Información más clara y ágil;</li>
-    <li>Mejora en la experiencia y satisfacción del visitante;</li>
-    <li>Mejor comunicación y retroalimentación con los usuarios;</li>
-    <li>Reducción de la tasa de rebote;</li>
-    <li>Fidelización de los usuarios, incentivándolos a regresar;</li>
-    <li>Facilitación de recomendaciones que atraen más visitas;</li>
-    <li>Incremento en las ventas a través del sitio web.</li>
-</ul>
-
-<h2 id="principios">¿Cuáles son los principios de Usabilidad Web?</h2>
-
-<h3 id="disponibilidad">Disponibilidad</h3>
-<p>La disponibilidad se refiere a cuán fácil es acceder a un sitio web, lo cual puede verse influenciado por la plataforma de alojamiento utilizada y su compatibilidad con los dispositivos de los usuarios. Existe una estrecha relación entre la disponibilidad y la experiencia del usuario.</p>
-<p><strong>Ejemplo:</strong> Un sitio web de comercio electrónico que utiliza un proveedor de alojamiento confiable asegura que el sitio esté disponible en todo momento. Si el sitio es compatible con dispositivos móviles y tabletas, los usuarios pueden acceder sin problemas desde cualquier dispositivo, mejorando su experiencia general.</p>
-<p><a href="https://es.aliexpress.com/?src=google&albch=fbrnd&acnt=379-215-0229&isdl=y&aff_short_key=UneMJZVf&albcp=2083567435&albag=79607073307&slnk=&trgt=kwd-17288322708&plac=&crea=374888837493&netw=g&device=c&mtctp=e&memo1=&albbt=Google_7_fbrnd&aff_platform=google&albagn=888888&isSmbActive=false&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcDCKsFRaQqoIAl0F9qGsV0jbeZSDms6SLeP5ziYriwD7-wejQ_llQwaArpnEALw_wcB&gclsrc=aw.ds&gatewayAdapt=glo2esp">Ali Express</a></p>
-
-<h3 id="claridad">Claridad</h3>
-<p>La claridad es fundamental para la usabilidad web. Los visitantes llegan con objetivos específicos, y si el diseño del sitio les causa distracciones o confusión, necesitarán más tiempo para encontrar lo que buscan y podrían abandonar el sitio insatisfechos.</p>
-<p><strong>Ejemplo:</strong> Un sitio de noticias presenta un diseño limpio y una navegación intuitiva, con categorías claramente etiquetadas (como "Últimas Noticias", "Deportes", "Cultura"). Esto permite a los visitantes encontrar rápidamente la información que desean sin distracciones innecesarias.</p>
-<p><a href="https://www.crhoy.com/">CRhoy</a></p>
-
-<h3 id="reconocimiento">Reconocimiento</h3>
-<p>El reconocimiento describe cómo los usuarios aprenden a navegar un nuevo sitio. Necesitan unos segundos para evaluar el sitio antes de interactuar. Por ejemplo, la mayoría buscará el logotipo en la esquina superior izquierda para volver a la página de inicio; si el sitio funciona de manera diferente, perderán tiempo averiguándolo. Una buena usabilidad requiere que esta curva de aprendizaje sea corta.</p>
-<p><strong>Ejemplo:</strong> Un nuevo sitio web de servicios financieros incluye un logotipo en la esquina superior izquierda que funciona como un enlace a la página de inicio, siguiendo la convención común en la mayoría de los sitios. Los usuarios no necesitan buscar cómo regresar, lo que facilita su navegación.</p>
-<p><a href="https://www.bccr.fi.cr/sistema-de-pagos/servicios-brindados-a-clientes">Página de BBCR</a></p>
-
-<h3 id="credibilidad">Credibilidad</h3>
-<p>Incluso si los usuarios pueden localizar fácilmente la información, un sitio carece de valor si no les genera confianza. Se pueden demostrar credibilidad a través del diseño, siendo transparentes sobre el negocio y sus objetivos.</p>
-<p><strong>Ejemplo:</strong> Un sitio de salud presenta testimonios de pacientes, estudios de caso y certificaciones profesionales de su equipo médico. También proporciona información clara sobre su política de privacidad y cómo manejan los datos de los usuarios, lo que genera confianza en los visitantes.</p>
-<p><a href="https://disfrutomisalud.com/testimonios/">Página de misalud</a></p>
-
-<h3 id="relevancia">Relevancia</h3>
-<p>La relevancia es uno de los aspectos más complejos de la usabilidad, ya que se refiere a la capacidad del contenido para atraer a los usuarios. Crear contenido relevante implica conocer bien al público objetivo, entender sus deseos y satisfacer sus necesidades con claridad.</p>
-<p><strong>Ejemplo:</strong> Un blog de recetas conoce a su público objetivo y ofrece contenido que responde a sus intereses, como recetas saludables, consejos de cocina y vídeos de preparación. Además, organiza el contenido por categorías relevantes y utiliza palabras clave que resuenan con sus lectores, lo que les ayuda a encontrar rápidamente lo que buscan.</p>
-<p><a href="https://www.recetasdecostarica.com/">Pagina Cocina Costa Rica</a></p>
+    
+    <div class="container">
+        <div class="usabilidad">
+            <h2 id="usabilidad">¿Qué es Usabilidad Web?</h2>
+            <p>La usabilidad web se refiere a las características que facilitan la navegación en un sitio web para los usuarios. Se centra en aspectos como el diseño visual, la disposición y organización de la información, así como en la funcionalidad del sitio. Su principal objetivo es permitir que el usuario navegue con el menor esfuerzo y tiempo posible.</p>
+            <p>Este proceso comienza en el momento en que el usuario accede al sitio, teniendo en cuenta factores como la velocidad de carga, la estructura del menú y sus secciones, el diseño y la organización de los elementos gráficos, la ausencia de errores en las páginas, y la optimización de textos, chats, formularios, barras de navegación, botones y otros componentes.</p>
+            <p>Por lo tanto, para que la interfaz del sitio web (y cada una de sus páginas) sea amigable, ágil, intuitiva y sencilla, se requiere la colaboración de diversos profesionales, incluyendo diseñadores gráficos, diseñadores UX, desarrolladores web y publicistas.</p>
+    
+            <h2 id="importancia">¿Cuál es la importancia de la Usabilidad Web?</h2>
+            <p>La falta de usabilidad en un sitio web es la principal razón por la que los usuarios lo abandonan.</p>
+            <p>Si la información es difícil de localizar, los objetivos no son alcanzables, no hay facilidad para escanear el contenido, o el sitio es muy lento, es probable que los visitantes cierren la pestaña sin leer más allá del primer párrafo.</p>
+            <p>Si tenemos problemas de usabilidad al perder un usuario, se puede perder un usuario potencial.</p>
+            <p>Por otro lado, la usabilidad web ofrece numerosos beneficios tanto para los usuarios como para los dueños del sitio. Entre ellos se incluyen:</p>
+            <ul>
+                <li>Aumento del tráfico;</li>
+                <li>Mayor tiempo de permanencia en la página;</li>
+                <li>Reducción de tiempos y costos para el usuario y la empresa;</li>
+                <li>Información más clara y ágil;</li>
+                <li>Mejora en la experiencia y satisfacción del visitante;</li>
+                <li>Mejor comunicación y retroalimentación con los usuarios;</li>
+                <li>Reducción de la tasa de rebote;</li>
+                <li>Fidelización de los usuarios, incentivándolos a regresar;</li>
+                <li>Facilitación de recomendaciones que atraen más visitas;</li>
+                <li>Incremento en las ventas a través del sitio web.</li>
+            </ul>
+    
+            <h2 id="principios">¿Cuáles son los principios de Usabilidad Web?</h2>
+    
+            <h3 id="disponibilidad">Disponibilidad</h3>
+            <p>La disponibilidad se refiere a cuán fácil es acceder a un sitio web, lo cual puede verse influenciado por la plataforma de alojamiento utilizada y su compatibilidad con los dispositivos de los usuarios. Existe una estrecha relación entre la disponibilidad y la experiencia del usuario.</p>
+            <p><strong>Ejemplo:</strong> Un sitio web de comercio electrónico que utiliza un proveedor de alojamiento confiable asegura que el sitio esté disponible en todo momento. Si el sitio es compatible con dispositivos móviles y tabletas, los usuarios pueden acceder sin problemas desde cualquier dispositivo, mejorando su experiencia general.</p>
+            <p><a href="https://es.aliexpress.com/?src=google&albch=fbrnd&acnt=379-215-0229&isdl=y&aff_short_key=UneMJZVf&albcp=2083567435&albag=79607073307&slnk=&trgt=kwd-17288322708&plac=&crea=374888837493&netw=g&device=c&mtctp=e&memo1=&albbt=Google_7_fbrnd&aff_platform=google&albagn=888888&isSmbActive=false&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=Cj0KCQjw3vO3BhCqARIsAEWblcDCKsFRaQqoIAl0F9qGsV0jbeZSDms6SLeP5ziYriwD7-wejQ_llQwaArpnEALw_wcB&gclsrc=aw.ds&gatewayAdapt=glo2esp">Ali Express</a></p>
+    
+            <h3 id="claridad">Claridad</h3>
+            <p>La claridad es fundamental para la usabilidad web. Los visitantes llegan con objetivos específicos, y si el diseño del sitio les causa distracciones o confusión, necesitarán más tiempo para encontrar lo que buscan y podrían abandonar el sitio insatisfechos.</p>
+            <p><strong>Ejemplo:</strong> Un sitio de noticias presenta un diseño limpio y una navegación intuitiva, con categorías claramente etiquetadas (como "Últimas Noticias", "Deportes", "Cultura"). Esto permite a los visitantes encontrar rápidamente la información que desean sin distracciones innecesarias.</p>
+            <p><a href="https://www.crhoy.com/">CRhoy</a></p>
+    
+            <h3 id="reconocimiento">Reconocimiento</h3>
+            <p>El reconocimiento describe cómo los usuarios aprenden a navegar un nuevo sitio. Necesitan unos segundos para evaluar el sitio antes de interactuar. Por ejemplo, la mayoría buscará el logotipo en la esquina superior izquierda para volver a la página de inicio; si el sitio funciona de manera diferente, perderán tiempo averiguándolo. Una buena usabilidad requiere que esta curva de aprendizaje sea corta.</p>
+            <p><strong>Ejemplo:</strong> Un nuevo sitio web de servicios financieros incluye un logotipo en la esquina superior izquierda que funciona como un enlace a la página de inicio, siguiendo la convención común en la mayoría de los sitios. Los usuarios no necesitan buscar cómo regresar, lo que facilita su navegación.</p>
+            <p><a href="https://www.bccr.fi.cr/sistema-de-pagos/servicios-brindados-a-clientes">Página de BBCR</a></p>
+    
+            <h3 id="credibilidad">Credibilidad</h3>
+            <p>Incluso si los usuarios pueden localizar fácilmente la información, un sitio carece de valor si no les genera confianza. Se pueden demostrar credibilidad a través del diseño, siendo transparentes sobre el negocio y sus objetivos.</p>
+            <p><strong>Ejemplo:</strong> Un sitio de salud presenta testimonios de pacientes, estudios de caso y certificaciones profesionales de su equipo médico. También proporciona información clara sobre su política de privacidad y cómo manejan los datos de los usuarios, lo que genera confianza en los visitantes.</p>
+            <p><a href="https://disfrutomisalud.com/testimonios/">Página de misalud</a></p>
+    
+            <h3 id="relevancia">Relevancia</h3>
+            <p>La relevancia es uno de los aspectos más complejos de la usabilidad, ya que se refiere a la capacidad del contenido para atraer a los usuarios. Crear contenido relevante implica conocer bien al público objetivo, entender sus deseos y satisfacer sus necesidades con claridad.</p>
+            <p><strong>Ejemplo:</strong> Un blog de recetas conoce a su público objetivo y ofrece contenido que responde a sus intereses, como recetas saludables, consejos de cocina y vídeos de preparación. Además, organiza el contenido por categorías relevantes y utiliza palabras clave que resuenan con sus lectores, lo que les ayuda a encontrar rápidamente lo que buscan.</p>
+            <p><a href="https://www.recetasdecostarica.com/">Pagina Cocina Costa Rica</a></p>
+    
+        </div>
+    
+        <div class="accesbilidad">
+            <h2 id="accesibilidad-web">¿Qué es la Accesibilidad Web?</h2>
+            <p>La accesibilidad web implica implementar medidas para adaptar los sistemas informáticos y hacerlos más inclusivos. En este espacio, analizaremos este concepto de diseño web en profundidad, con el fin de que puedas inspirarte y aplicarlo en los entornos digitales de tu organización.</p>
+            <p>Los usuarios con discapacidades pueden utilizar sus interfaces de la forma más accesible posible. Esta función está orientada a personas con debilidad visual, fotosensibilidad y otras condiciones, tanto de salud como sociales, como el analfabetismo.</p>
+            <p>Su objetivo es reducir el capacitismo, un fenómeno que consiste en ignorar a las personas con necesidades especiales y excluirlas por no tener las habilidades que se consideran normales en individuos sin discapacidad.</p>
+    
+            <h2 id="importanciaweb">¿Cuál es la importancia de la accesibilidad web?</h2>
+            <p>La web se ha convertido en un recurso fundamental en múltiples áreas de la vida cotidiana, como la educación, el empleo, el gobierno, el comercio, la salud, el entretenimiento y muchas más. Por esta razón, es esencial que la web sea accesible, ya que esto garantiza un acceso equitativo y la igualdad de oportunidades para las personas con discapacidad.</p>
+            <p>Una página web accesible no solo facilita la navegación, sino que también empodera a las personas con discapacidad, permitiéndoles participar más activamente en la sociedad. Al eliminar las barreras de acceso, se les brinda la posibilidad de acceder a información crucial, interactuar con otros y participar en actividades que de otro modo podrían resultarles inaccesibles.</p>
+            <p>De este modo, la accesibilidad web no solo beneficia a las personas con discapacidad, sino que enriquece a toda la comunidad al fomentar una sociedad más inclusiva y participativa. Al garantizar que todos tengan la oportunidad de aprovechar los recursos disponibles en línea, se promueve la equidad y se impulsa el desarrollo social y económico.</p>
+    
+            <h2 id="principiosweb">¿Cuáles son los principios de la Accesibilidad Web?</h2>
+    
+            <h3 id="perceptibilidad">1. Perceptibilidad</h3>
+            <p>Este concepto subraya la importancia de que el contenido web sea accesible para la mayoría de los usuarios. Para lograrlo, ofrece alternativas auditivas al contenido visual, como el texto alternativo, que es útil para programas de voz que asisten a personas con discapacidad visual. También incluye etiquetas para botones y otros elementos visuales.</p>
+            <p>Ejemplo:</p>
+            <ul>
+                <li><strong>Texto alternativo:</strong> Al subir imágenes a un sitio web, se incluye una descripción en texto alternativo que describe el contenido visual.</li>
+                <li><strong>Etiquetas en botones:</strong> Los botones de un formulario tienen etiquetas claras, como "Enviar" o "Cancelar".</li>
+            </ul>
+    
+            <h3 id="operabilidad">2. Operabilidad</h3>
+            <p>La operabilidad se refiere a la capacidad de los usuarios para manejar la experiencia digital a su conveniencia. Por esta razón, los avances automáticos en blogs o presentaciones son cada vez menos comunes, permitiendo que el usuario decida cuánto tiempo dedicar a cada contenido.</p>
+            <p><strong>Ejemplo:</strong></p>
+            <ul>
+                <li><strong>Controles manuales:</strong> Los usuarios pueden avanzar a su propio ritmo utilizando flechas o botones de navegación.</li>
+                <li><strong>Función de zoom:</strong> Un sitio web permite a los usuarios ampliar el texto y las imágenes sin perder calidad.</li>
+            </ul>
+    
+            <h3 id="Comprension">3. Comprensión</h3>
+            <p>Este aspecto es crucial para todos los usuarios, ya que enfatiza la necesidad de que un texto sea legible y claro. Los contenidos deben tener una estructura y disposición intuitiva para todos los que comparten un idioma y cultura.</p>
+            <p><strong>Ejemplo:</strong></p>
+            <ul>
+                <li><strong>Lenguaje claro:</strong> Un artículo utiliza un lenguaje sencillo y evita jerga técnica.</li>
+                <li><strong>Guías visuales:</strong> Se ofrecen diagramas o infografías junto a un texto para ayudar a explicar conceptos complejos.</li>
+            </ul>
+    
+            <h3 id="robustez">4. Robustez</h3>
+            <p>Este principio establece que los productos digitales deben funcionar en diferentes dispositivos y navegadores, y ser compatibles con las herramientas de apoyo que utilizan los usuarios.</p>
+            <p><strong>Ejemplo:</strong></p>
+            <ul>
+                <li><strong>Compatibilidad con navegadores:</strong> Un sitio web está diseñado para funcionar sin problemas en diversos navegadores.</li>
+                <li><strong>Integración con herramientas de accesibilidad:</strong> La plataforma es compatible con software de lectura de pantalla.</li>
+            </ul>
+        </div>
+    </div>
+    
 
 <h2 id="referencias">Referencias Bibliográficas</h2>
-
 <ul>
     <li>Inesdi. (2022). Usabilidad web: qué es y principios. <a href="https://www.inesdi.com/blog/usabilidad-web-que-es-principios/#:~:text=La%20usabilidad%20web%20se%20puede,%2C%20reconocimiento%2C%20credibilidad%20y%20relevancia">https://www.inesdi.com/blog/usabilidad-web-que-es-principios/#:~:text=La%20usabilidad%20web%20se%20puede,%2C%20reconocimiento%2C%20credibilidad%20y%20relevancia</a></li>
     <li>Coppola, M. (2023). Qué es la usabilidad web. HubSpot. <a href="https://blog.hubspot.es/website/que-es-usabilidad-web">https://blog.hubspot.es/website/que-es-usabilidad-web</a></li>
     <li>Rock Content. (2019). Usabilidad: ¿qué es y por qué es importante?. <a href="https://rockcontent.com/es/blog/usabilidad/">https://rockcontent.com/es/blog/usabilidad/</a></li>
+    <li>HubSpot. (2022). ¿Qué es la accesibilidad web? <a href="https://blog.hubspot.es/website/que-es-accesibilidad-web#principios">https://blog.hubspot.es/website/que-es-accesibilidad-web#principios</a></li>
+    <li>Universidad de Alicante. (n.d.). ¿Por qué es importante la accesibilidad web? <a href="https://accesibilidadweb.dlsi.ua.es/?menu=por-que-accesibilidad-web-importante">https://accesibilidadweb.dlsi.ua.es/?menu=por-que-accesibilidad-web-importante</a></li>
+    
+    
 </ul>
 
 </body>
