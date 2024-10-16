@@ -95,4 +95,20 @@ strong {
 .content-card {
     margin-bottom: 20px; 
 }
+.video-section {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+}
+
+.video-container {
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    width: 100%; /* Make the iframe responsive */
+    height: 150px;
+}
+
 
