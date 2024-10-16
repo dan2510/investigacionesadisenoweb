@@ -107,7 +107,7 @@ strong {
 }
 
 .video-container iframe {
-    width: 100%; /* Make the iframe responsive */
+    width: 100%; /* hace iframe responsivo */
     height: 150px;
 }
 
